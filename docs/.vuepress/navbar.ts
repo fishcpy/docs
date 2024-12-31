@@ -10,4 +10,11 @@ export const navbar = defineNavbarConfig([
       { text: 'github', link: 'https://github.mengmengmao.cn/' },
     ],
   },
+  {
+    text: '菜单',
+    icon: 'codicon:versions',
+    items: [
+      { text: 'MC', link: '/mc' },
+    ],
+  },
 ])
