@@ -29,7 +29,7 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
    footer: {
-     message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
+     message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a> </p> <a target="_blank" href="https://github.com">github</a> & <a target="_blank" href="https://vercel.com">vercel</a>',
      copyright: '©2024 fishcpy. All rights reserved',
    },
 
@@ -37,7 +37,7 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: 'https://theme-plume.vuejs.press/plume.png',
+    avatar: 'https://blogpng.mengmengmao.cn/mengmengmao/2024/12/07/6753bbbc609ce.png',
     name: 'fishcpy docs',
     description: 'fishcpy docs',
     // circle: true,
@@ -63,7 +63,7 @@ export default defineThemeConfig({
    transition: {
      page: true,        // 启用 页面间跳转过渡动画
      postList: true,    // 启用 博客文章列表过渡动画
-     appearance: 'fade',  // 启用 深色模式切换过渡动画, 或配置过渡动画类型
+     appearance: 'true',  // 启用 深色模式切换过渡动画, 或配置过渡动画类型
    },
 
 })
