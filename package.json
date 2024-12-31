@@ -27,7 +27,4 @@
   "dependencies": {
     "@elog/cli": "^0.14.3"
   }
-  "scripts": {
-    "build": "[vue.js] build --output public"
-  }
 }
