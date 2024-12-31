@@ -7,6 +7,7 @@ export const navbar = defineNavbarConfig([
     icon: 'codicon:versions',
     items: [
       { text: 'MC', link: '/mc/' },
+      { text: '友情链接', link: '/friends/' },
     ],
   },
   {

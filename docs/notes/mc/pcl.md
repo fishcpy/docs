@@ -1,0 +1,11 @@
+---
+title: 下载启动器
+tags:
+  - mc
+createTime: 2024/12/31 13:53:46
+permalink: /mc/pcl/
+---
+::: tip 提示
+本教程使用pcl2 MC启动器，若您使用其他启动器，本教程不保证可用性
+
+:::

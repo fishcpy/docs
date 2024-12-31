@@ -15,6 +15,10 @@ config:
           theme: brand
           text: 快速开始 →
           link: /go/
+        -
+          theme: alt
+          text: 友情链接
+          link: /friends/
   -
     type: banner
     banner: https://blogpng.mengmengmao.cn/mengmengmao/2024/12/08/67558bb89d4fe.jpg
