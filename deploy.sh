@@ -10,7 +10,7 @@ npm run docs:build
 # cd docs/.vuepress/dist
 
 git init
-git add -A
+git add .
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
