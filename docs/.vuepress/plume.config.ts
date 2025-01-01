@@ -29,7 +29,7 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
    footer: {
-     message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a> </p> <a target="_blank" href="https://github.com">github</a> & <a target="_blank" href="https://vercel.com">vercel</a>',
+     message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a> <a href="https://icp.gov.moe/?keyword=20250110" target="_blank">萌ICP备20250110号</a> </p> <a target="_blank" href="https://github.com">github</a> & <a target="_blank" href="https://vercel.com">vercel</a>',
      copyright: '©2024 fishcpy. All rights reserved',
    },
 
