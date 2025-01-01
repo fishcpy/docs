@@ -10,6 +10,7 @@ export const navbar = defineNavbarConfig([
       { text: '友情链接', link: '/friends/' },
     ],
   },
+  { text: '开往🚇', link: 'https://www.travellings.cn/go.html' },
   {
     text: '节点',
     icon: 'codicon:versions',
