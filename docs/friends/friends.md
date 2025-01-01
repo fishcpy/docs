@@ -15,7 +15,7 @@ list:
     avatar: https://blogpng.mengmengmao.cn/mengmengmao/2024/12/07/6753bbbc609ce.png
     desc: fishcpy的小破站
   - 
-    name: zyh的小破站
+    name: zyh的个人站
     link: https://zyh111.us.kg/
     avatar: https://zyh111.us.kg/tx.jpg
     descr: Who is minecraft？
