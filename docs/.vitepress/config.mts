@@ -31,6 +31,21 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+
+    footer: {
+      message: `
+        <div class="footer-custom">
+          <a href="https://icp.gov.moe/?keyword=20250110" target="_blank">萌ICP备20250110号</a>
+          <br/>
+          <a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
+            <div align="center">
+              <img src="https://www.travellings.cn/assets/logo.gif" alt="开往-友链接力" width="120">
+            </div>
+          </a>
+        </div>
+      `,
+      copyright: 'Copyright © 2025-2025 fishcpy'
+    }
   }
 })
