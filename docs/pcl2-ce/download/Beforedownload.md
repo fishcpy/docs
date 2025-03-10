@@ -26,4 +26,5 @@
 2.3 安装完成后，点击立即体验
 2.4 打开后点击 网络加速 ， 勾线github。
 ![github](https://imgse.fishcpy.top/upload/thumbnails/2025/w800/2025-03-10000138compressed.png)<br>
-2.5 测试是否能访问[<mark>**这个网站**</mark>](https://github.com/PCL-Community/PCL2-CE)
+2.5 点击一键加速<br>
+2.6 测试是否能访问[<mark>**这个网站**</mark>](https://github.com/PCL-Community/PCL2-CE)

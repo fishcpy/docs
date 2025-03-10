@@ -3,7 +3,15 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "fishcpy docs",
   description: "fishcpy docs",
-  base: '/docs/', // 添加这行，'docs' 替换为你的仓库名
+  base: '/docs/',
+  vite: {
+    server: {
+      host: '0.0.0.0',
+      allowedHosts: ['docs.fishcpy.top'],
+      port: 5173,
+      strictPort: false
+    }
+  },
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },

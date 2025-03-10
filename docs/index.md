@@ -18,7 +18,7 @@ features:
   - icon:
       src: /img/pcl/pcl-ce/logo.ico
     title: PCL2 CE 文档  |  点击查看 →
-    details: PCL2 CE 的官方文档，包含使用指南和详细说明
+    details: PCL2 CE 玩家制作的文档，包含使用指南和详细说明
     text: Get Started
     link: /pcl2-ce/
 ---
