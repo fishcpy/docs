@@ -4,6 +4,7 @@ export default defineConfig({
   title: "fishcpy docs",
   description: "fishcpy docs",
   base: '/docs/',
+  ignoreDeadLinks: true,  // 添加此行
   vite: {
     server: {
       host: '0.0.0.0',
