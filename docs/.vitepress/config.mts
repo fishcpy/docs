@@ -30,8 +30,9 @@ export default defineConfig({
           text: '如何下载',
           collapsed: true,
           items: [
-            { text: '下载前准备工作', link: '/pcl2-ce/download/Beforedownload' },
-            { text: '下载', link: '/pcl2-ce/download/download' }
+            { text: '一键下载', link: '/pcl2-ce/download/download_cf' },
+            { text: '手动下载前准备工作', link: '/pcl2-ce/download/Beforedownload' },
+            { text: '手动下载', link: '/pcl2-ce/download/download_github' }
           ]
         }
       ]

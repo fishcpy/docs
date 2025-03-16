@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: ./what-is-PCL2ce
+      link: ./what-is-PCL2ce.html
 
 ---
-### 我（fishcpy）在这里声明，有一些内容可能和官方不一样，请谅解。如果你发现区别过大，可以发送邮件到fishcpy@qq.com，我看到后会及时更新。
+### 我（fishcpy）在这里声明，有一些内容可能和官方不一样，请谅解。如果您发现区别过大，可以发送邮件到fishcpy@qq.com，我看到后会及时更新。
