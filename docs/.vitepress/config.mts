@@ -8,7 +8,7 @@ export default defineConfig({
   vite: {
     server: {
       host: '0.0.0.0',
-      allowedHosts: ['docs.fishcpy.top'],
+      allowedHosts: ['docs.fishcpy.top', 'imgse.fishcpy.top'],  
       port: 5173,
       strictPort: false
     }
@@ -16,7 +16,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: 'PCL2-CE', link: '/pcl2-ce/What-is-PCL2ce' },
+      { text: 'PCL2-CE', link: '/pcl2-ce/' },
       { text: '所有文档', link: '/all-docs' }
     ],
 
@@ -24,7 +24,7 @@ export default defineConfig({
       '/pcl2-ce/': [
         { 
           text: '什么是 PCL2-CE？', 
-          link: '/pcl2-ce/What-is-PCL2ce',
+          link: '/pcl2-ce/what-is-PCL2ce',
           items: [] 
         },
         {
@@ -40,7 +40,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/fishcpy' }
     ],
 
     footer: {

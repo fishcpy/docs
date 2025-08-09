@@ -8,5 +8,5 @@
 - 这里下载的均为稳定版，如果需要测试版，请按照 [手动下载](/Beforedownload.html) 部分进行下载。
 - 如果网站打不开，请按照 [手动下载](/Beforedownload.html) 部分进行下载。 
 :::
-AMD64 设备请下载 [AMD64版](https://download.pcl2ce.us.kg/https://github.com/PCL-Community/PCL2-CE/releases/latest/download/PCL2_CE.exe)。<br>
-ARM64 设备请下载 [ARM64版](https://download.pcl2ce.us.kg/https://github.com/PCL-Community/PCL2-CE/releases/latest/download/PCL2_CE_ARM64.exe)。<br>
+AMD64 设备请下载 [X64版](https://download.pcl2ce.dpdns.org/https://github.com/PCL-Community/PCL2-CE/releases/latest/download/PCL2_CE_x64.exe)。<br>
+ARM64 设备请下载 [ARM64版](https://download.pcl2ce.dpdns.org/https://github.com/PCL-Community/PCL2-CE/releases/latest/download/PCL2_CE_ARM64.exe)。<br>
