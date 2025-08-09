@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "fishcpy docs",
   description: "fishcpy docs",
-  base: '/docs/',
-  ignoreDeadLinks: true,  // 添加此行
+  base: '/',
+  ignoreDeadLinks: true,
   vite: {
     server: {
       host: '0.0.0.0',
