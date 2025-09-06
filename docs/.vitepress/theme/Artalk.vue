@@ -3,14 +3,21 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, onUnmounted } from 'vue'
+import { onMounted, onUnmounted, watch } from 'vue'
 import { useData } from 'vitepress'
 
 const { page } = useData()
 
 let artalk: any = null
 
-onMounted(async () => {
+// 初始化 Artalk 的函数
+const initArtalk = async () => {
+  // 如果已存在实例，先销毁
+  if (artalk) {
+    artalk.destroy()
+    artalk = null
+  }
+  
   // 动态导入 Artalk
   const { default: Artalk } = await import('artalk')
   
@@ -54,9 +61,23 @@ onMounted(async () => {
     reqTimeout: 15000,
     scrollRelativeTo: () => document.body
   })
+}
+
+// 监听页面变化，重新初始化评论区
+watch(
+  () => page.value.relativePath,
+  async () => {
+    await initArtalk()
+  }
+)
+
+let observer: MutationObserver | null = null
+
+onMounted(async () => {
+  await initArtalk()
   
   // 监听主题变化
-  const observer = new MutationObserver(() => {
+  observer = new MutationObserver(() => {
     const isDark = document.documentElement.classList.contains('dark')
     if (artalk) {
       artalk.setDarkMode(isDark)
@@ -67,17 +88,17 @@ onMounted(async () => {
     attributes: true,
     attributeFilter: ['class']
   })
-  
-  // 保存 observer 以便清理
-  ;(artalk as any)._observer = observer
 })
 
 onUnmounted(() => {
+  // 清理主题监听器
+  if (observer) {
+    observer.disconnect()
+    observer = null
+  }
+  
+  // 清理 Artalk 实例
   if (artalk) {
-    // 清理主题监听器
-    if ((artalk as any)._observer) {
-      ;(artalk as any)._observer.disconnect()
-    }
     artalk.destroy()
     artalk = null
   }
