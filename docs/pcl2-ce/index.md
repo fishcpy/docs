@@ -15,4 +15,7 @@ hero:
       link: ./what-is-PCL2ce.html
 
 ---
+
+<Home />
+
 ### 我（fishcpy）在这里声明，有一些内容可能和官方不一样，请谅解。如果您发现区别过大，可以发送邮件到fishcpy@qq.com，我看到后会及时更新。

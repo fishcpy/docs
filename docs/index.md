@@ -29,3 +29,4 @@ features:
     link: /astro-theme-fishcpy/
 ---
 
+<Home />

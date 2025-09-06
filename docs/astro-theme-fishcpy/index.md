@@ -41,6 +41,8 @@ features:
     details: 支持 Vercel、Netlify、GitHub Pages 等多种部署平台
 ---
 
+<Home />
+
 ::: tip 🤖 AI 辅助编写
 本文档由 AI 辅助编写，内容经过人工审核和优化。如发现任何错误或需要改进的地方，欢迎提交 Issue 或 PR。
 :::
