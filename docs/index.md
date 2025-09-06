@@ -21,5 +21,11 @@ features:
     details: PCL2 CE 玩家制作的文档，包含使用指南和详细说明
     text: Get Started
     link: /pcl2-ce/
+  - icon:
+      src: https://www.fis.ink/img/logo_c.png
+    title: Astro Theme Fishcpy 文档  |  点击查看 →
+    details: 基于 Astro 构建的现代化静态博客主题，功能丰富、设计精美
+    text: Get Started
+    link: /astro-theme-fishcpy/
 ---
 

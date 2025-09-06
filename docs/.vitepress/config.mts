@@ -17,6 +17,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'PCL2-CE', link: '/pcl2-ce/' },
+      { text: 'Astro Theme Fishcpy', link: '/astro-theme-fishcpy/' },
       { text: '所有文档', link: '/all-docs' }
     ],
 
@@ -34,6 +35,32 @@ export default defineConfig({
             { text: '一键下载', link: '/pcl2-ce/download/download_cf' },
             { text: '手动下载前准备工作', link: '/pcl2-ce/download/Beforedownload' },
             { text: '手动下载', link: '/pcl2-ce/download/download_github' }
+          ]
+        }
+      ],
+      '/astro-theme-fishcpy/': [
+        {
+          text: '🚀 快速开始',
+          collapsed: false,
+          items: [
+            { text: '项目概览', link: '/astro-theme-fishcpy/' },
+            { text: '快速开始指南', link: '/astro-theme-fishcpy/quick-start' }
+          ]
+        },
+        {
+          text: '⚙️ 配置与定制',
+          collapsed: false,
+          items: [
+            { text: '配置文件自定义', link: '/astro-theme-fishcpy/configuration' },
+            { text: '内容管理', link: '/astro-theme-fishcpy/content-management' }
+          ]
+        },
+        {
+          text: '🚀 部署与维护',
+          collapsed: true,
+          items: [
+            { text: '部署指南', link: '/astro-theme-fishcpy/deployment' },
+            { text: '常见问题', link: '/astro-theme-fishcpy/faq' }
           ]
         }
       ]
