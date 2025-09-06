@@ -5,10 +5,14 @@ export default defineConfig({
   description: "fishcpy docs",
   base: '/',
   ignoreDeadLinks: true,
+  lastUpdated: true,
+  sitemap: {
+    hostname: 'https://docs.fis.ink'
+  },
   vite: {
     server: {
       host: '0.0.0.0',
-      allowedHosts: ['docs.fishcpy.top', 'imgse.fishcpy.top'],  
+      allowedHosts: ['docs.fis.ink', 'imgse.fishcpy.top'],  
       port: 5173,
       strictPort: false
     }
