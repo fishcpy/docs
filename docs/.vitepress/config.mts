@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   head: [
+    ['link', { rel: 'icon', href: 'https://www.fis.ink/img/logo_c.png' }],
     ['link', { rel: 'stylesheet', href: 'https://unpkg.com/artalk@latest/dist/Artalk.css' }],
     ['script', { src: 'https://unpkg.com/artalk@latest/dist/Artalk.js' }]
   ],
