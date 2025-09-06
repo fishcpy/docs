@@ -1,7 +1,36 @@
-node_modules
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
-dist-ssr
-cache
-.cache
-.temp
-*.local
+Thumbs.db
+
+# Logs
+*.log
+
+# Package manager lock files (optional, some prefer to commit these)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
