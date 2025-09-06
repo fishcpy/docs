@@ -5,7 +5,8 @@ comments: false
 
 hero:
   name: "fishcpy docs"
-  text: "fishcpy 文档"
+  text: "fishcpy" # 副标题文本前半部分，下划线会作用于这里
+  textsuffix: " 文档" # 副标题文本后半部分
   tagline: Hi👋,欢迎来到fishcpy docs
   actions:
     - theme: brand
