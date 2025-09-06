@@ -53,7 +53,7 @@ git push -u origin main
 本项目已内置 GitHub Actions 工作流，默认使用 `blog` 分支进行部署。
 
 1.  **推送代码到 `blog` 分支**
-    将您的代码推送到远程仓库的 `blog` 分支即可触发自动部署。
+    将您的代码推送到远程仓库的 `main` 分支即可触发自动部署。
 2.  **在部署平台配置**
     - 将您的 GitHub 仓库连接到您选择的部署平台（如 Vercel, Netlify）。
     - 在项目设置中，将部署分支设置为 `blog`。
