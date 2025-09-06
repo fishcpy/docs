@@ -9,6 +9,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "@theojs/lumen": "^6.4.4"
+    "@theojs/lumen": "^6.4.4",
+    "artalk": "^2.9.1"
   }
 }

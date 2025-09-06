@@ -1,6 +1,10 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  head: [
+    ['link', { rel: 'stylesheet', href: 'https://unpkg.com/artalk@latest/dist/Artalk.css' }],
+    ['script', { src: 'https://unpkg.com/artalk@latest/dist/Artalk.js' }]
+  ],
   title: "fishcpy docs",
   description: "fishcpy docs",
   base: '/',

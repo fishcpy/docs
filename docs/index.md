@@ -1,6 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+comments: false
 
 hero:
   name: "fishcpy docs"
